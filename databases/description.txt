@@ -1,0 +1,1 @@
+Ovo je mapa u kojoj ćemo čuvati datoteku SQLite baze
