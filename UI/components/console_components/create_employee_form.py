@@ -9,5 +9,5 @@ def create_employee_form():
     job_title = input('Unesite radno mjesto: ')
     address = input_address_form()
 
-    file_mgr = FileManager
+    file_mgr = FileManager()
     file_mgr.insert_employee(first_name, last_name, address, employee_no, job_title)

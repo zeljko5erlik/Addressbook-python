@@ -1,0 +1,12 @@
+{
+    "first_name": "Zeljko",
+    "last_name": "Peterlik",
+    "address": {
+        "street_and_number": "Ulica BB",
+        "postal_code": "42000",
+        "city": "Varazdin",
+        "country": "Hrvatska"
+    },
+    "employee_no": "369",
+    "job_title": "tehnolog I"
+}
