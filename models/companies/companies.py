@@ -1,12 +1,12 @@
 from models.addresses.addresses import Address
-
+from json import JSONEncoder
 
 
 class Company:
     def __init__(self,
                  title: str,
                  vat_id: str,
-                 hq_address: Address = None,
+                 hq_address: Address,
                  phone: str = None,
                  email: str = None) -> None:
         self.title = title
@@ -21,3 +21,8 @@ class Company:
                 f'Sjediste: {self.hq_address.__str__()},\n'
                 f'Telefon: {self.phone},\n'
                 f'Email: {self.email}\n')
+    
+
+class CompanyEncoder(JSONEncoder):
+    def default(self, comp_en):
+        return comp_en.__dict__

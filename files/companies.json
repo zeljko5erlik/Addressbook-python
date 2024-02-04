@@ -1,7 +1,12 @@
 {
-    "title": "janko d.o.o.",
-    "vat_id": "1354684",
-    "hq_address": null,
+    "title": "Magic d.o.o.",
+    "vat_id": "2525262515",
+    "hq_address": {
+        "street_and_number": "Kratka 5",
+        "postal_code": "42000",
+        "city": "Varazdin",
+        "country": "Hrvatska"
+    },
     "phone": null,
     "email": null
 }

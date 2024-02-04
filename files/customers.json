@@ -1,0 +1,11 @@
+{
+    "name": "Zeljko Peterlik",
+    "address": {
+        "street_and_number": "Ulica bra\u0107e Radi\u0107a 45",
+        "postal_code": "42000",
+        "city": "Varazdin",
+        "country": "Hrvatska"
+    },
+    "vat_id": "5245151351",
+    "priority": "medium"
+}
